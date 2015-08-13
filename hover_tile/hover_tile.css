@@ -1,0 +1,21 @@
+/**
+ * @file
+ * Display Suite Hover Tile stylesheet.
+ */
+
+.hover-tile-container {
+  /* Set height of hover tile here */
+  height: 245px;
+  overflow: hidden;
+}
+
+.hover-tile-container:hover > .ds-hover-content {
+  transform: translate(0, -100%);
+}
+
+.ds-main {}
+
+.ds-hover-content {
+  height: inherit;
+  transition: all, 0.2s ease-in-out;
+}
